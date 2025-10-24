@@ -77,6 +77,7 @@ The app will start locally and open automatically in your browser (default: http
 ## 4. Application Walkthrough
 
 After launching, you will see a sidebar for authentication and navigation between modules.
+![Login Page](assets/Login.png)
 
 ### Login Credentials
 
@@ -100,6 +101,7 @@ This page simulates message intake from Qiscus, Email, or WhatsApp.
 5. Submit the message
    - If information is complete → marked Ready
    - If incomplete → marked Waiting for Info
+![Chat / Input Collector](assets/Chat.png)
 
 ---
 
@@ -112,6 +114,7 @@ View all stored messages with:
 - Current conversation status
 
 You can also manually mark a conversation as "waiting for info" for testing.
+![Conversations](assets/Conservation.png)
 
 ---
 
@@ -125,7 +128,7 @@ This module processes ready payloads and simulates the backend workflow:
    - Apply consultant assignment rules
    - Automatically create a new ticket in the Teamwork simulation
 4. The payload status changes to "processed"
-
+![Process](assets/Process.png)
 ---
 
 ### D. Tickets (Teamwork)
@@ -145,7 +148,7 @@ Each ticket shows:
 1. Expand the ticket panel
 2. Change the Status to Closed
 3. Click Save Changes to update
-
+![Tickets](assets/Tickets.png)
 ---
 
 ### E. Consultant Assignment Portal (Admin)
@@ -158,7 +161,8 @@ Each ticket shows:
    - Random – assign randomly among consultants
    - Round-Robin – rotate between consultants
 5. Save the rule, then test it by creating new tickets
-
+![Consultant_a](assets/Consultant_a.png)
+![Consultant_b](assets/Consultant_b.png)
 ---
 
 ## 5. Database
