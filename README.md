@@ -36,7 +36,7 @@ Follow these steps to set up and run the application on your local machine.
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/AI-Backend.git
+git clone https://github.com/phunghoang1909/AI-Backend.git
 cd AI-Backend
 ```
 
